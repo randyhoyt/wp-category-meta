@@ -1,0 +1,107 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-01-14 12:00+0100\n"
+"PO-Revision-Date: 2011-01-14 12:02+0100\n"
+"Last-Translator: Eric Le Bail <eric_lebail@hotmail.com>\n"
+"Language-Team: Eric Le Bail <eric_lebail@hotmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wp-category-meta.php:501
+msgid "Term meta"
+msgstr "Term ( Category / Tag / ...) meta"
+
+#: ../wp-category-meta.php:531
+#: ../wp-category-meta.php:540
+#: ../wp-category-meta.php:585
+msgid "This additionnal data is attached to the current term"
+msgstr "This additionnal data is attached to the current \"term\" (Category / Tag / ...)"
+
+#: ../wp-category-meta.php:558
+#: ../wp-category-meta.php:570
+msgid "No image selected"
+msgstr "No image selected"
+
+#: ../wp-category-meta.php:564
+msgid "Click here to add/change your image"
+msgstr "Click here to add/change your image"
+
+#: ../wp-category-meta.php:566
+msgid "Note: To choose image click the \"insert into post\" button in the media uploader"
+msgstr "Note: To choose image click the \"insert into post\" button in the media uploader"
+
+#: ../wp-category-meta.php:571
+msgid "Click here to remove the existing image"
+msgstr "Click here to remove the current image"
+
+#: ../views/options.php:72
+msgid "Category Meta Version:"
+msgstr "Category Meta Version:"
+
+#: ../views/options.php:76
+msgid "Meta list"
+msgstr "Meta list"
+
+#: ../views/options.php:84
+#: ../views/options.php:135
+msgid "Meta Name"
+msgstr "Meta name"
+
+#: ../views/options.php:85
+#: ../views/options.php:147
+msgid "Meta Type"
+msgstr "Meta type"
+
+#: ../views/options.php:87
+msgid "Meta Taxonomy"
+msgstr "Meta taxonomy (Category / Tag / ...)"
+
+#: ../views/options.php:89
+msgid "Action"
+msgstr "Action"
+
+#: ../views/options.php:118
+msgid "Delete this Meta"
+msgstr "Delete this Meta"
+
+#: ../views/options.php:130
+msgid "Add a Meta"
+msgstr "Add a meta"
+
+#: ../views/options.php:141
+msgid "Sanitize meta name"
+msgstr "Replace special characters into meta name"
+
+#: ../views/options.php:150
+msgid "Text"
+msgstr "Text"
+
+#: ../views/options.php:151
+msgid "Text Area"
+msgstr "Text area"
+
+#: ../views/options.php:152
+msgid "Image"
+msgstr "Image"
+
+#: ../views/options.php:153
+msgid "Check Box"
+msgstr "Check Box"
+
+#: ../views/options.php:159
+msgid "Meta Toxonomy"
+msgstr "Meta taxonomy (Category / Tag / ...)"
+
+#: ../views/options.php:177
+msgid "Add Meta"
+msgstr "Add meta"
+

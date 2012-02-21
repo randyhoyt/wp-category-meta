@@ -1,0 +1,29 @@
+
+#categorymeta h3 {
+	font-size:12px;
+	font-weight:bold;
+	line-height:1;
+	margin:0;
+	padding:7px 9px;
+}
+
+.wptm_meta_name_label {
+	width: 150px;
+}
+
+.wptm_selected_image {
+    width: auto;
+    display: block;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.wptm_url_display {
+    width: 350px; 
+    background-color: #FFFFFF; 
+    padding: 3px; 
+    border: #c6d9e9 1px solid; 
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 13px;
+}
