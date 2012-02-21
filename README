@@ -1,0 +1,5 @@
+#Category Meta plugin
+
+This plugin has been forked from the broken version in the WordPress repository: [http://wordpress.org/extend/plugins/wp-category-meta/].
+
+This plugin adds meta data to the wordpress categories and terms. It creates a wp-termsmeta table to store the entered meta. It adds input fields to the category and other term administration interface to enter the meta values. It provides functions to retrive / create / update / delete the category and terms meta. It can be used to add meta to custom taxonomies (terms).

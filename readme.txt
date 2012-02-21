@@ -1,10 +1,10 @@
 === Category Meta plugin ===
-Contributors: Eric Le Bail, Tom Ransom
+Contributors: Randy Hoyt, Eric Le Bail, Tom Ransom
 Donate link: #
 Tags: category,meta,category meta,admin,plugin,image,icon,images,icons,category icon,category image,taxonomy metadata,taxonomy meta,custom taxonomy meta
 Requires at least: 2.8
-Tested up to: 3.0
-Stable tag: 1.2.4
+Tested up to: 3.3.1
+Stable tag: 1.2.5
 
 Add the ability to attach meta data to the wordpress categories and terms.
 It can be used to add meta to custom taxonomies (terms).
@@ -17,9 +17,11 @@ It adds input fields to the category and other term administration interface to 
 It provides functions to retrive / create / update / delete the category and terms meta.
 It can be used to add meta to custom taxonomies (terms).
 
-This plugin has been tested with WP2.8.6 and WPmu2.8.6 and WP3.0
+This plugin has been tested with WP2.8.6 and WPmu2.8.6 and WP3.3.1
 
 == Update Log ==
+1.2.5 : Small fix to make the image fields work in WordPress 3.3.1.
+
 1.2.4 : Small fix to make the meta list appear in the taxonomy edit page with WP3.0.1. && WP3.0.4 (thanks to webgrafia).
 
 1.2.3 : Add a new meta type "check-box" with meta_value of "checked" when the box is checked (thanks to Joseph).
