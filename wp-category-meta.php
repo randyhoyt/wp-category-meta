@@ -195,7 +195,7 @@ function wptm_init() {
  *
  */
 function wptm_admin_enqueue_scripts() {
-    if(is_admin()) {
+    if(is_admin() && isset($_REQUEST["taxonomy"])) {
         // chargement des styles
         wp_register_style('thickbox-css', '/wp-includes/js/thickbox/thickbox.css');
         wp_enqueue_style('thickbox-css');
