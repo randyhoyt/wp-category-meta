@@ -32,7 +32,7 @@ Class wptm_admin {
     
     //Add configuration page into admin interface.
     function wptm_add_options_panel() {
-        add_options_page('Category Meta Options', 'Category Meta', 7, 'category_meta', array(&$this, 'wptm_option_page'));
+        add_options_page('Category Meta Options', 'Category Meta', 'manage_options', 'category_meta', array(&$this, 'wptm_option_page'));
     }
     
     //build admin interface
