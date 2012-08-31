@@ -45,7 +45,7 @@ Class wptm_admin {
             $configuration = array();
         }
         
-        if($_POST['action'] == "add") 
+        if(isset($_POST['action']) && $_POST['action'] == "add") 
         {
             $new_meta_name = $_POST["new_meta_name"];
             $new_meta_name_sanitize = $_POST["new_meta_name_sanitize"];
@@ -61,7 +61,7 @@ Class wptm_admin {
             update_option("wptm_configuration", $configuration);
             
         }
-        else if($_POST['action'] == "delete") 
+        else if(isset($_POST['action']) && $_POST['action'] == "delete") 
         {
             $delete_Meta_Name = $_POST["delete_Meta_Name"];
             unset($configuration[$delete_Meta_Name]);
