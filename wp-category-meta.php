@@ -161,7 +161,7 @@ function wptm_dropTable($wpdb, $table_name)
 function wptm_init() {
     global $wp_version;
     if (function_exists('load_plugin_textdomain')) {
-        load_plugin_textdomain('wp-category-meta', PLUGINDIR.DIRECTORY_SEPARATOR."wp-category-meta".DIRECTORY_SEPARATOR.'lang');
+    	load_plugin_textdomain('wp-category-meta', false, dirname( plugin_basename( __FILE__ ) ) . '/lang/');       
     }
     else
     {
