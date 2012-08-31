@@ -444,15 +444,16 @@ function wptm_save_meta_tags($id) {
     $metaList = get_option("wptm_configuration");
     // Check that the meta form is posted
     $wptm_edit = $_POST["wptm_edit"];
-    if (isset($wptm_edit) && !empty($wptm_edit)) {
-
+    if (isset($wptm_edit) && !empty($wptm_edit)) {	
         foreach($metaList as $inputName => $inputType)
         {
-            $inputValue = $_POST['wptm_'.$inputName];
-            delete_terms_meta($id, $inputName);
-            if (isset($inputValue) && !empty($inputValue)) {
-                add_terms_meta($id, $inputName, $inputValue);
-            }
+	   if($inputType['taxonomy'] == $_POST['taxonomy']) {
+		   $inputValue = $_POST['wptm_'.$inputName];
+		   delete_terms_meta($id, $inputName);
+		   if (isset($inputValue) && !empty($inputValue)) {
+		       add_terms_meta($id, $inputName, $inputValue);
+		   }
+	    }
         }
     }
 }
