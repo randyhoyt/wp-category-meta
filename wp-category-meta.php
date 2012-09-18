@@ -2,8 +2,8 @@
 /*
  * Plugin Name: wp-category-meta
  * Description: Add the ability to attach meta to the Wordpress categories
- * Version: 1.2.5
- * Author: Randy Hoyt, Eric Le Bail
+ * Version: 1.2.7
+ * Author: Randy Hoyt, Vitaliy Kukin, Eric Le Bail, Tom Ransom
  * Author URI: http://randyhoyt.com/
  *
  * This plugin has been developped and tested with Wordpress Version 3.3.1

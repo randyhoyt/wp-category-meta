@@ -3,8 +3,8 @@ Contributors: Randy Hoyt, Eric Le Bail, Tom Ransom
 Donate link: #
 Tags: category,meta,category meta,admin,plugin,image,icon,images,icons,category icon,category image,taxonomy metadata,taxonomy meta,custom taxonomy meta
 Requires at least: 2.8
-Tested up to: 3.3.1
-Stable tag: 1.2.6
+Tested up to: 3.4.2
+Stable tag: 1.2.7
 
 Add the ability to attach meta data to the wordpress categories and terms.
 It can be used to add meta to custom taxonomies (terms).
@@ -20,6 +20,8 @@ It can be used to add meta to custom taxonomies (terms).
 This plugin has been tested with WP2.8.6 and WPmu2.8.6 and WP3.3.1
 
 == Update Log ==
+1.2.7 : Small fix to make the image fields work in WordPress 3.4.
+
 1.2.6 : Fix bug introduced in 1.2.5, allowing images to be inserted into posts again.
 
 1.2.5 : Small fix to make the image fields work in WordPress 3.3.1.
