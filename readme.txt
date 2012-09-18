@@ -1,5 +1,5 @@
 === Category Meta plugin ===
-Contributors: Randy Hoyt, Eric Le Bail, Tom Ransom
+Contributors: Randy Hoyt, steveclarkcouk, Vitaliy Kukin, Eric Le Bail, Tom Ransom
 Donate link: #
 Tags: category,meta,category meta,admin,plugin,image,icon,images,icons,category icon,category image,taxonomy metadata,taxonomy meta,custom taxonomy meta
 Requires at least: 2.8
