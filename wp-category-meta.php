@@ -133,7 +133,7 @@ function wptm_createTable($wpdb, $table_name)
           PRIMARY KEY  (`meta_id`),
           KEY `terms_id` (`terms_id`),
           KEY `meta_key` (`meta_key`)
-        ) ENGINE=MyISAM AUTO_INCREMENT=6887 DEFAULT CHARSET=utf8;";
+        ) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;";
 
     $results = $wpdb->query($sql);
 }
