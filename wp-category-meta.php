@@ -195,7 +195,8 @@ function wptm_init() {
  *
  */
 function wptm_admin_enqueue_scripts() {
-    if(is_admin() && isset($_REQUEST["taxonomy"])) {
+	global $pagenow,$wptm_version;
+    if( 'edit-tags.php' == $pagenow ) {
         // chargement des styles
         wp_register_style('thickbox-css', '/wp-includes/js/thickbox/thickbox.css');
         wp_enqueue_style('thickbox-css');
@@ -204,6 +205,7 @@ function wptm_admin_enqueue_scripts() {
         wp_enqueue_script('media-upload');
         wp_enqueue_script('quicktags');
         wp_enqueue_script('wp-category-meta-scripts','/wp-content/plugins/wp-category-meta/js/wp-category-meta-scripts.js');
+		wp_enqueue_style('wptm_style', plugins_url('wp-category-meta.css', __FILE__),false,$wptm_version);
     }
 }
 
@@ -494,9 +496,6 @@ function wptm_add_meta_textinput($tag)
     if(!is_null($metaList) && count($metaList) > 0 && $metaList != '')
     {
         ?>
-<link rel="stylesheet"
-	href="/wp-content/plugins/wp-category-meta/wp-category-meta.css"
-	type="text/css" media="screen" />
 <div id="categorymeta" class="postbox">
 <h3 class='hndle'><span><?php _e('Term meta', 'wp-category-meta');?></span></h3>
 <div class="inside"><input value="wptm_edit" type="hidden"
