@@ -527,7 +527,7 @@ foreach($metaList as $inputName => $inputData)
 	<tr>
 		<td><input value="<?php echo $inputValue ?>" type="text" size="40"
 			name="<?php echo 'wptm_'.$inputName;?>" /><br />
-			<?php _e('This additionnal data is attached to the current term', 'wp-category-meta');?></td>
+			<?php _e('This additional data is attached to the current term', 'wp-category-meta');?></td>
 	</tr>
 	<?php } elseif($inputType == 'textarea') { ?>
 	<tr>
@@ -536,7 +536,7 @@ foreach($metaList as $inputName => $inputData)
 	<tr>
 		<td><textarea name="<?php echo "wptm_".$inputName?>" rows="5"
 			cols="50" style="width: 97%;"><?php echo $inputValue ?></textarea> <br />
-			<?php _e('This additionnal data is attached to the current term', 'wp-category-meta');?></td>
+			<?php _e('This additional data is attached to the current term', 'wp-category-meta');?></td>
 	</tr>
 	<?php } elseif($inputType == 'image') {
 
@@ -581,7 +581,7 @@ foreach($metaList as $inputName => $inputData)
     <tr>
         <td><input value="checked" type="checkbox" <?php echo $inputValue ? 'checked="checked" ' : ''; ?>
             name="<?php echo 'wptm_'.$inputName;?>" /><br />
-            <?php _e('This additionnal data is attached to the current term', 'wp-category-meta');?></td>
+            <?php _e('This additional data is attached to the current term', 'wp-category-meta');?></td>
     </tr>
 	<?php } // end elseif
     }//end foreach
