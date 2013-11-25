@@ -445,7 +445,7 @@ function wptm_save_meta_tags($id) {
 
     $metaList = get_option("wptm_configuration");
     // Check that the meta form is posted
-    $wptm_edit = $_POST["wptm_edit"];
+    $wptm_edit = (array_key_exists("wptm_edit", $_POST))?$_POST["wptm_edit"]:null;
     if (isset($wptm_edit) && !empty($wptm_edit)) {	
         foreach($metaList as $inputName => $inputType)
         {
