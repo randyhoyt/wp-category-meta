@@ -1,4 +1,4 @@
-**NOTE:** You can find an updated version of this plugin, maintained by a different author and compatible with WordPress 3.5+, at the following location:
+NOTE: You can find an updated version of this plugin, maintained by Pavel Riha and compatible with WordPress 3.5+, at the following location:
 
 *  http://www.papik-wordpress.eu/wp-content/uploads/2015/06/wp-category-meta-1.3.0.zip
 
