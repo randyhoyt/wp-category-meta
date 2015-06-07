@@ -1,3 +1,7 @@
+**NOTE:** You can find an updated version of this plugin, maintained by a different author and compatible with WordPress 3.5+, at the following location:
+
+*  http://www.papik-wordpress.eu/wp-content/uploads/2015/06/wp-category-meta-1.3.0.zip
+
 === Category Meta plugin ===
 Contributors: Randy Hoyt, steveclarkcouk, Vitaliy Kukin, Eric Le Bail, Tom Ransom
 Donate link: #
